@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+}
+.under:hover{
+    text-decoration: underline solid 1px  ;
+}
+.under1{
+    text-decoration: underline solid 1px  ;
+}
+
+.banner{
+    width: 100%;
+    height: 788px;
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-A0xnbgZ4WxTJlN3R.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.orta {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+.bannertext{
+    margin-block: 30px;
+}
+
+.new1 {
+    text-decoration: underline solid 1px;
+    color: black;
+}
+
+.new:hover {
+    text-decoration: underline solid 1px;
+    color: black;
+}
+
+.new {
+    color: black;
+
+}
+
+.new1 {
+    color: black;
+}
+
+.orta h1 {
+    font-size: 60px;
+    font-style: unset;
+}
+
+.orta p {
+    text-align: justify;
+    padding: 0;
+}
+
+.text {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.text:hover {
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.text1{
+   
+    height: 50px;
+    margin-bottom: 350px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px; 
+    margin-right: 40px;
+    font-size: 20px;
+    margin-left: 700px;
+    margin-bottom: 35px;
+    margin-top: -45px;
+   
+  
+  
+    
+}
+
+.text1:hover {
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+.stil1 {
+    width: 100%;
+    height: 60px;
+    margin-top: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.stil3 {
+    width: 100%;
+    height: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 420px;
+}
+
+.pagetwo{
+   width: 100%;
+   padding-block: 150px;
+   background-color: white;
+   
+
+}
+.pagetwo h1,p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pagetwo .flexImg{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pagetwo .flexImg .imgContainer{
+    width: 392px;
+    height: 496px;
+    position: relative;
+}
+
+.pagetwo .flexImg .imgContainer img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.pagetwo .flexImg .imgContainer .imageBtn{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.divBtn{
+    position: absolute;
+    width: 100%;
+    bottom: -16px;
+}
+
+.pageThree{
+    width: 100%;
+    padding-block: 150px;
+    background-color: white;
+    display: flex;
+  
+    justify-content: center;
+   
+
+}
+.mom{
+    padding: 30px 30px;
+    text-align: justify;
+}
+.mom1{
+   padding: 10px 30px;
+ text-align: justify;
+}
+.img{
+    width: 550px;
+    height: 550px;
+    margin-left: 200px;
+    
+}
+.pageFour{
+    width: 100%;
+    padding-block: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    
+    
+}
+
+.yazi{
+    text-align: center;
+
+}
+
+footer{
+    width: 100%;
+    padding-block: 80px;
+    background-color:black;
+}
+
+.arxafon{
+    display: flex;
+    justify-content: space-between;
+}
+.font{
+    color: white;
+}
+.font1{
+    color: white;
+
+    
+}
+.area{
+    background-color: gray;
+    color: white
+}
+.icons{
+    display: flex;
+   gap: 30px;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+}
+.icon{
+   
+    color: white;
+}
+
+@media(max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+} 

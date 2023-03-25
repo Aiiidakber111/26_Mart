@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+}
+.under:hover{
+    text-decoration: underline solid 1px  ;
+}
+.under1{
+    text-decoration: underline solid 1px  ;
+}
+
+
+.about{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+   
+}
+.yekun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.fox{
+    margin-top: 60px;
+   text-align: justify;
+   padding: 0px;
+   margin-left: 350px;
+   margin-right: 350px;
+   font-size: 20px;
+}
+.enson{
+    margin-top: 60px;
+ margin-left: 550px;
+ font-size: 30px;
+}
+footer{
+    margin-top: 200px;
+    width: 100%;
+    padding-block: 80px;
+    background-color: black;
+}
+
+.arxafon{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.font{
+    color: white;
+}
+.font1{
+    color: white;
+    
+}
+.area{
+    background-color: gray;
+    color: white
+}
+.icons{
+    display: flex;
+   gap: 30px;
+    width: 100%;
+    height: 100%;
+    background-color:black ;
+}
+.icon{
+   
+    color: white;
+}
+.insig{
+
+    width: 100%;
+    height: 5px;
+    text-align: center;
+    margin-top: 80px;
+  
+  
+}
+.common{
+   
+    margin-bottom: 190px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 1300px;
+    height: 1600px;
+ }
+ .titleone{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+ 
+ .titletwo{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+ .titlethree{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+   
+ }
+
+.Contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Store{
+    margin-top: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.touch{
+    margin-top: 160px;
+ font-size: 30px;
+}
+.plase{
+    background-color: rgb(237, 231, 231);
+    border: none;
+}
+.plase1{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 40px;
+    width: 130px;
+    height: 45px;
+}
+.plase1:hover{
+    background-color:black;
+    color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+@media(max-width: 768px){
+    .container{
+  flex-direction: column;
+    }
+} 
